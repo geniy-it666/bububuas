@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,642;1,642&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.nav-menu {
+    background-color: #222;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    line-height: 80px;
+    z-index: 1000;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: azure;
+
+}
+
+.nav-logo span {
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.conteyner {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #65DAFF;
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.section-text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    color: azure;
+    vertical-align: top;
+
+}
+
+.nav-item {
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+    color: #65DAFF;
+    transform: scale(1.5);
+
+}
+
+.nav-conteyner {
+    float: right;
+
+}
+
+.header {
+    background-image: url(img/img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.header-title {
+    color: #4e4e4e;
+    font-size: 100px;
+    font-weight: 900;
+
+}
+
+.header-conteyner {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50%;
+    margin-left: 20px;
+}
+
+.header-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #4e4e4e;
+    font-size: 50px;
+
+
+}
+
+.header-button {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(45deg, #65DAFF, #70ffcb);
+    font-size: 16px;
+}
+
+.about-card {
+    display: inline-block;
+    width: 25%;
+    margin-top: 100px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.about-image {
+    height: 130px;
+}
+
+.about-text {
+    font-size: 30px;
+    color: #65DAFF;
+
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.img1 {
+    background-image: url(img/img/csgo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 33.33333333333333%;
+
+}
+
+.img2 {
+    background-image: url(img/img/dota2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 33.33333333333333%;
+
+}
+
+.img3 {
+    background-image: url(img/img/apex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33.33333333333333%;
+    height: 350px;
+}
+
+.game-title {
+    font-size: 25px;
+    color: #70ffcb;
+}
+
+.game-divide {
+    width: 120px;
+    border: none;
+    height: 3px;
+    background-color: #70ffcb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wg-card-right {
+    display: inline-block;
+    width: 49%;
+    padding: 20px;
+}
+
+.wg-card-left {
+    padding: 20px;
+    display: inline-block;
+    width: 49%;
+}
+
+.img-right {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+}
+
+.img-left {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+
+}
+
+.wg-conteyner {
+    box-shadow: 0 10px 30px black;
+}
+
+.note {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-hr {
+    border: none;
+    width: 300px;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 30px auto;
+
+}
+
+.contact-title {
+    text-align: left;
+    font-size: 60px;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: 300px;
+    vertical-align: middle;
+}
+
+.contact-conteyner {
+    padding: 50px;
+    box-shadow: 0 10px 30px black;
+    margin-bottom: 50px;
+}
+
+.contact-button {
+    background-color: #65DAFF;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-link {
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
